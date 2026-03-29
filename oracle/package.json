@@ -1,0 +1,15 @@
+{
+  "name": "dynamic-world-nft-oracle",
+  "version": "1.0.0",
+  "description": "Oracle service for Dynamic World NFT — reads real-world data and updates on-chain",
+  "main": "oracle.js",
+  "scripts": {
+    "start": "node oracle.js",
+    "dev": "node --watch oracle.js"
+  },
+  "dependencies": {
+    "ethers": "^6.11.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  }
+}
